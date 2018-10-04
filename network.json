@@ -3,22 +3,8 @@
         "christysato"
     ],
     "created_at": "2018-10-04 15:12:45",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
-        {
-            "name": "clean.R"
-        },
         {
             "name": "data.csv"
         },
@@ -26,6 +12,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:22:39",
+    "updated_at": "2018-10-04 15:22:46",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
