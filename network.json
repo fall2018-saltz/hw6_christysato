@@ -9,10 +9,12 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "christysato",
             "desc": "cleaning dataset",
-            "name": "clean.R"
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:24:50",
+    "updated_at": "2018-10-04 15:25:28",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
