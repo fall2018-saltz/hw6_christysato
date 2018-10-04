@@ -7,8 +7,12 @@
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "desc": "cleaning dataset",
+            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-04 15:22:50",
+    "updated_at": "2018-10-04 15:24:50",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
