@@ -6,12 +6,9 @@
     "edges": [],
     "nodes": [
         {
-            "name": "data.csv"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:22:46",
+    "updated_at": "2018-10-04 15:22:50",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
