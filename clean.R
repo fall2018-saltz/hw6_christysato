@@ -4,19 +4,19 @@ dfStates <- rawdata
 
 #STEPA1
 #created function to clean the dataframe
-MyMode <- function(dfStates)
+MyMode <- function(states)
 {
   #removes first row because it is total for US, we do not need
-  dfStates <- dfStates[-1,]
+  states <- states[-1,]
   #last row is Puerto Rico and should be removed
-  num.row <- nrow(dfStates)
-  dfStates <- dfStates[-num.row,]
+  num.row <- nrow(states)
+  states <- states[-num.row,]
   #removes first 4 columns
-  dfStates <- dfStates[,-1:-4]
+  states <- states[,-1:-4]
   #changes the name of remaining columns
-  colnames(dfStates) <- c("stateName", "population", "popOver18","percentOver18")
-  return(dfStates)
+  colnames(states) <- c("stateName", "population", "popOver18","percentOver18")
+  return(states)
 }
-dfStates <- MyMode(dfStates)
+dfStates <- MyMode(rawdata)
 #provides clean dataset
 str(dfStates)
