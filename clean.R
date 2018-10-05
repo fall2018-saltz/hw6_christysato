@@ -1,2 +1,2 @@
 
-str(rawdata)
+dfStates <- rawdata
