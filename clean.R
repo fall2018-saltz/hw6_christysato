@@ -19,4 +19,4 @@ MyMode <- function(dfStates)
 }
 dfStates <- MyMode(dfStates)
 #provides clean dataset
-dfStates
+str(dfStates)
