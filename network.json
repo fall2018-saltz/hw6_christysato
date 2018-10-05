@@ -24,8 +24,12 @@
             "desc": "cleaning dataset",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "mergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-05 02:28:44",
+    "updated_at": "2018-10-05 02:28:52",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
