@@ -3,6 +3,7 @@
 dfStates <- rawdata
 
 #STEPA1
+#created function to clean the dataframe
 MyMode <- function(dfStates)
 {
   dfStates <- dfStates[-1,]
