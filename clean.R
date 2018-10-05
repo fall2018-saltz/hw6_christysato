@@ -20,11 +20,3 @@ MyMode <- function(dfStates)
 dfStates <- MyMode(dfStates)
 #provides clean dataset
 dfStates
-
-#STEPA2
-View(USArrests)
-arrests <- data.frame(USArrests)
-arrests
-#created a new column for state names
-arrests$stateName <- row.names(arrests)
-arrests
