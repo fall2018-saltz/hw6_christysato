@@ -24,8 +24,11 @@
             "desc": "cleaning dataset",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "USArrests.csv"
         }
     ],
-    "updated_at": "2018-10-05 02:18:16",
+    "updated_at": "2018-10-05 02:21:22",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
