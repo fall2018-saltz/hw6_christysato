@@ -11,6 +11,7 @@ MyMode <- function(dfStates)
   #last row is Puerto Rico and should be removed
   num.row <- nrow(dfStates)
   dfStates <- dfStates[-num.row,]
+  #removes first 4 columns
   dfStates <- dfStates[,-1:-4]
   colnames(dfStates) <- c("stateName", "population", "popOver18","percentOver18")
   return(dfStates)
