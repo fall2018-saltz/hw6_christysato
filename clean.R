@@ -1,4 +1,3 @@
 
-dfStates <- rawdata
-View(dfStates)
+View(rawdata)
 
