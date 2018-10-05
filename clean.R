@@ -13,6 +13,7 @@ MyMode <- function(dfStates)
   dfStates <- dfStates[-num.row,]
   #removes first 4 columns
   dfStates <- dfStates[,-1:-4]
+  #changes the name of remaining columns
   colnames(dfStates) <- c("stateName", "population", "popOver18","percentOver18")
   return(dfStates)
 }
