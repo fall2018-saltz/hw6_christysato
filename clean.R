@@ -1,6 +1,4 @@
 
 dfStates <- rawdata
-readStates <- function(states)
-{
-    states
-}
+View(dfStates)
+
