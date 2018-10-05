@@ -1,3 +1,2 @@
 
-View(rawdata)
-
+str(rawdata)
