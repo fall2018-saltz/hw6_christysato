@@ -22,3 +22,9 @@ dfStates <- MyMode(dfStates)
 dfStates
 
 #STEPA2
+View(USArrests)
+arrests <- data.frame(USArrests)
+arrests
+#created a new column for state names
+arrests$stateName <- row.names(arrests)
+arrests
