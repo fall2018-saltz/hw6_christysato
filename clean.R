@@ -2,6 +2,7 @@
 #named rawdata dataset as dfStates
 dfStates <- rawdata
 
+#STEPA1
 MyMode <- function(dfStates)
 {
   dfStates <- dfStates[-1,]
