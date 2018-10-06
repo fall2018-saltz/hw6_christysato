@@ -37,12 +37,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "christysato",
             "desc": "",
             "name": "mergeArrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "USArrests.csv"
         }
     ],
-    "updated_at": "2018-10-05 02:44:36",
+    "updated_at": "2018-10-06 23:36:47",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
