@@ -1,4 +1,5 @@
 
+#STEPB4
 library("ggplot2")
 #make histogram for population
 #creates ggplot called g, using the dataframe USArrestsdf, and grabbing the x axis as population
