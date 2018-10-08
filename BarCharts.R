@@ -8,10 +8,12 @@ numMurders <- data.frame(USArrestsdf$stateName, USArrestsdf$Murder)
 numMurders
 
 #STEPC8
+#created a barchart of number of murders for each state using geomcol function
 m_bar <- ggplot() +geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) #credit: https://rpubs.com/sediaz/geom_col_1
 m_bar
 
 #STEPC9
+#created a new barchart with same information, but rotated the x axis so that the labels are readable, and the graph title is Total Murders
 m_barClean <- m_bar + theme(axis.text.x = element_text(angle=90, hjust = 1))  #credit: https://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2
 m_barClean <- m_barClean + ggtitle("Total Murders")
 m_barClean
