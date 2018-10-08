@@ -93,8 +93,11 @@
         },
         {
             "name": "urbanPopHistogram.png"
+        },
+        {
+            "name": "rapeHistogram.png"
         }
     ],
-    "updated_at": "2018-10-08 20:32:36",
+    "updated_at": "2018-10-08 20:33:04",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
