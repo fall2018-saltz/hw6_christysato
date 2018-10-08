@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -30,6 +41,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-08 19:45:37",
+    "updated_at": "2018-10-08 19:46:08",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
