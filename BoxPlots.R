@@ -12,3 +12,4 @@ m_box <- ggplot(USArrestsdf, aes(y=Murder)) +
   geom_boxplot(fill="slateblue")
 m_box
 
+#STEPB6
