@@ -25,6 +25,8 @@ str(dfStates)
 #copied USArrests into local variable called arrests
 arrests <- USArrests
 arrests <- data.frame(USArrests)
+#created a new column for state names
+arrests$stateName <- row.names(arrests)
 arrests
 
 
