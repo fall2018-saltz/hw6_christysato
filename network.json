@@ -64,6 +64,16 @@
             ],
             "source": "Histograms.R",
             "target": "urbanPopHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "r",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "rapeHistogram.png"
         }
     ],
     "nodes": [
@@ -98,6 +108,6 @@
             "name": "rapeHistogram.png"
         }
     ],
-    "updated_at": "2018-10-08 20:33:04",
+    "updated_at": "2018-10-08 20:33:10",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
