@@ -20,3 +20,5 @@ MyMode <- function(dfStates)
 dfStates <- MyMode(dfStates)
 #provides clean dataset
 str(dfStates)
+
+arrests <- USArrests
