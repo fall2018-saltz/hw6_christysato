@@ -23,4 +23,7 @@ m_barClean
 USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)])
 USArrestsdf$stateName
 #barchart is now sorted by murder rate from smallest to largest (left to right)
-m_barClean
+m_barSorted <- ggplot(USArrestsdf) + geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) +
+  ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
+  theme(axis.text.x = element_text(angle=90, hjust = 1))
+m_barSorted
