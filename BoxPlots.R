@@ -1,4 +1,5 @@
 
+library("ggplot2")
 #STEPB5
 #boxplot for population
 p_box <- ggplot(USArrestsdf, aes(y=population)) + 
