@@ -14,3 +14,4 @@ m_box
 
 #STEPB6
 #the boxplot was more helpful than the histogram because the boxplot
+#illustrates the mean, max, min, median, first and third quartile 
