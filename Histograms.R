@@ -29,3 +29,21 @@ a <- a + geom_histogram(binwidth = 10, color="black", fill="white")
 #add a title to the histogram
 a <- a + ggtitle("Assault Rate")
 a
+
+#make histogram for Urbanpop
+#create a ggplot called p, using the dataframe USArrestsdf, and grabbing the x axis as UrbanPop
+p <- ggplot(USArrestsdf, aes(x=UrbanPop))
+#make histogram with bars being white with black outline
+p <- p + geom_histogram(binwidth = 5, color="black", fill="white")
+#add a title to the histogram
+p <- p + ggtitle("UrbanPop")
+p
+
+#make histogram for rape
+#create a ggplot called r, using the dataframe USArrestsdf, and grabbing the x axis as Rape
+r <- ggplot(USArrestsdf, aes(x=Rape))
+#make histogram with bars being white with black outline
+r <- r + geom_histogram(binwidth = 5, color="black", fill="white")
+#add a title to the histogram
+r <- r + ggtitle("Rape")
+r
