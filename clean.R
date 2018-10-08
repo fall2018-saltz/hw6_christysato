@@ -22,3 +22,7 @@ dfStates <- MyMode(dfStates)
 str(dfStates)
 
 arrests <- USArrests
+
+#created a new column for state names
+arrests$stateName <- row.names(arrests)
+
