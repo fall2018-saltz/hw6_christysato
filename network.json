@@ -44,6 +44,16 @@
             ],
             "source": "Histograms.R",
             "target": "murderHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "assaultHistogram.png"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "assaultHistogram.png"
         }
     ],
-    "updated_at": "2018-10-08 20:31:59",
+    "updated_at": "2018-10-08 20:32:08",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
