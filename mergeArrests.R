@@ -1,2 +1,4 @@
 
-fileToRead <- "http://www2.census.gov/programs-surveys/popest/tables/2010-2011/state/totals/nstest2011-01.xls"
+#STEPA3
+#merge the two datasets with matching stateName column
+USArrestsdf <- merge(dfStates,arrests, by="stateName")
