@@ -179,8 +179,11 @@
         },
         {
             "name": "m_bar.png"
+        },
+        {
+            "name": "m_BarClean.png"
         }
     ],
-    "updated_at": "2018-10-08 21:49:55",
+    "updated_at": "2018-10-08 21:50:18",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
