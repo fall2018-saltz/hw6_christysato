@@ -24,8 +24,9 @@ str(dfStates)
 #STEPA2
 arrests <- USArrests
 arrests <- data.frame(USArrests)
-#created a new column for state names
+#created a new column for stateName
 arrests$stateName <- row.names(arrests)
+
 
 #STEPA3
 #merge the two datasets with matching stateName column
