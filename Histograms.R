@@ -1,7 +1,7 @@
 
 #STEPB4
 library("ggplot2")
-
+https://midst.syr.edu/project/hw6_christysato/editor?script=Histograms.R#
 #make histogram for population
 #creates ggplot called g, using the dataframe USArrestsdf, and grabbing the x axis as population
 g <- ggplot(USArrestsdf, aes(x=population))
