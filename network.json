@@ -116,6 +116,16 @@
             ],
             "source": "clean.R",
             "target": "BarCharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "m_bar.png"
         }
     ],
     "nodes": [
@@ -171,6 +181,6 @@
             "name": "m_bar.png"
         }
     ],
-    "updated_at": "2018-10-08 21:49:48",
+    "updated_at": "2018-10-08 21:49:55",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
