@@ -85,6 +85,16 @@
             ],
             "source": "clean.R",
             "target": "BoxPlots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p_box",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlots.R",
+            "target": "popBox.png"
         }
     ],
     "nodes": [
@@ -128,6 +138,6 @@
             "name": "popBox.png"
         }
     ],
-    "updated_at": "2018-10-08 21:05:18",
+    "updated_at": "2018-10-08 21:05:33",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
