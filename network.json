@@ -24,8 +24,11 @@
             "desc": "cleaning dataset",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "genBoxPlots.png"
         }
     ],
-    "updated_at": "2018-10-08 20:17:03",
+    "updated_at": "2018-10-08 20:17:25",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
