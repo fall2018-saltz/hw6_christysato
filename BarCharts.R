@@ -9,3 +9,5 @@ numMurders
 #STEPC8
 m_bar <- ggplot() +geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) #credit: https://rpubs.com/sediaz/geom_col_1
 m_bar
+
+
