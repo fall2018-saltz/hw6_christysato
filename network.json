@@ -13,21 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "USArrestsdf",
-                    "output": "dfStates",
-                    "type": "r_obj"
-                },
-                {
-                    "output": "arrests",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -39,12 +24,8 @@
             "desc": "cleaning dataset",
             "name": "clean.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-08 19:29:51",
+    "updated_at": "2018-10-08 19:31:11",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
