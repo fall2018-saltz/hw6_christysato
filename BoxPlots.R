@@ -16,3 +16,4 @@ m_box
 #the boxplot was more helpful than the histogram because the boxplot
 #illustrates the mean, max, min, median, first and third quartile 
 #in a better visual. It is easier for me to distinguish that in the
+#boxplot, rather than the histogram.
