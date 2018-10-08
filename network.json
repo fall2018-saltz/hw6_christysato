@@ -74,6 +74,32 @@
             ],
             "source": "Histograms.R",
             "target": "rapeHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "g",
+                    "output": "g",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "m",
+                    "output": "m",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "p",
+                    "output": "p",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "r",
+                    "output": "r",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "BoxPlots.R"
         }
     ],
     "nodes": [
@@ -112,6 +138,6 @@
             "name": "BoxPlots.R"
         }
     ],
-    "updated_at": "2018-10-08 20:35:17",
+    "updated_at": "2018-10-08 20:35:48",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
