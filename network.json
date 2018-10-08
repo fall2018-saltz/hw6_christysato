@@ -182,18 +182,18 @@
             "name": "mBox.png"
         },
         {
-            "assigned_to": "christysato",
-            "desc": "",
-            "name": "BarCharts.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "m_bar.png"
         },
         {
             "name": "m_barClean.png"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "",
+            "name": "BarCharts.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-08 21:52:13",
+    "updated_at": "2018-10-08 21:53:48",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
