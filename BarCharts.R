@@ -15,5 +15,5 @@ m_bar
 #STEPC9
 #created a new barchart with same information, but rotated the x axis so that the labels are readable, and the graph title is Total Murders
 m_barClean <- m_bar + theme(axis.text.x = element_text(angle=90, hjust = 1))  #credit: https://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2
-m_barClean <- m_barClean + ggtitle("Total Murders")
+m_barClean <- m_barClean + ggtitle("Total Murders") + xlab("State Name") + ylab("Murder Rate")
 m_barClean
