@@ -67,8 +67,11 @@
         },
         {
             "name": "murderHistogram.png"
+        },
+        {
+            "name": "assaultHistogram.png"
         }
     ],
-    "updated_at": "2018-10-08 20:31:43",
+    "updated_at": "2018-10-08 20:31:59",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
