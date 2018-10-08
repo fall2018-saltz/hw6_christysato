@@ -47,3 +47,5 @@ r <- r + geom_histogram(binwidth = 5, color="black", fill="white")
 #add a title to the histogram
 r <- r + ggtitle("Rape")
 r
+
+#Had to adjust the binwidth parameter to make the other histograms look correct
