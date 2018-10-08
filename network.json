@@ -41,8 +41,11 @@
             "desc": "cleaning dataset",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "populationHistogram.png"
         }
     ],
-    "updated_at": "2018-10-08 20:23:15",
+    "updated_at": "2018-10-08 20:29:06",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
