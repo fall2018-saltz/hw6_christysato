@@ -40,9 +40,9 @@
             "assigned_to": "christysato",
             "desc": "cleaning dataset",
             "name": "clean.R",
-            "task_status": "completed"
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-10-08 20:21:52",
+    "updated_at": "2018-10-08 20:23:09",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
