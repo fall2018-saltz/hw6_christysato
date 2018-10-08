@@ -21,8 +21,11 @@ dfStates <- MyMode(dfStates)
 #provides clean dataset
 str(dfStates)
 
+#STEPA2
 arrests <- USArrests
-
 #created a new column for state names
 arrests$stateName <- row.names(arrests)
 
+#STEPA3
+#merge the two datasets with matching stateName column
+USArrestsdf <- merge(dfStates,arrests, by="stateName")
