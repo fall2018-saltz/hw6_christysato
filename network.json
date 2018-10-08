@@ -105,17 +105,6 @@
             ],
             "source": "BoxPlots.R",
             "target": "mBox.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "USArrests",
-                    "output": "USArrests",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "BarCharts.R"
         }
     ],
     "nodes": [
@@ -160,12 +149,8 @@
         },
         {
             "name": "mBox.png"
-        },
-        {
-            "desc": "",
-            "name": "BarCharts.R"
         }
     ],
-    "updated_at": "2018-10-08 21:41:00",
+    "updated_at": "2018-10-08 21:41:46",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
