@@ -22,6 +22,7 @@ dfStates <- MyMode(dfStates)
 str(dfStates)
 
 #STEPA2
+#copied USArrests into local variable called arrests
 arrests <- USArrests
 arrests <- data.frame(USArrests)
 #created a new column for stateName
