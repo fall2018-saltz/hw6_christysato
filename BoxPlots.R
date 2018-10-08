@@ -13,3 +13,4 @@ m_box <- ggplot(USArrestsdf, aes(y=Murder)) +
 m_box
 
 #STEPB6
+#the boxplot was more helpful than the histogram because the boxplot
