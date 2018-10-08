@@ -34,3 +34,5 @@ arrests
 #merge the two datasets with matching stateName column
 USArrestsdf <- merge(dfStates, arrests, by="stateName")
 USArrestsdf
+
+head(USArrestsdf)
