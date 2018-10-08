@@ -192,8 +192,11 @@
             "desc": "",
             "name": "BarCharts.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "m_barSorted.png"
         }
     ],
-    "updated_at": "2018-10-08 21:53:48",
+    "updated_at": "2018-10-08 22:34:25",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
