@@ -17,3 +17,10 @@ m_bar
 m_barClean <- m_bar + theme(axis.text.x = element_text(angle=90, hjust = 1))  #credit: https://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2
 m_barClean <- m_barClean + ggtitle("Total Murders") + xlab("State Name") + ylab("Murder Rate")
 m_barClean
+
+#STEPC10
+#change the order of factor levels by specifying the order explicitly, the order being the Murder rate
+USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)])
+USArrestsdf$stateName
+#barchart is now sorted by murder rate from smallest to largest (left to right)
+m_barClean
