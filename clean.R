@@ -23,6 +23,7 @@ str(dfStates)
 
 #STEPA2
 arrests <- USArrests
+arrests <- data.frame(USArrests)
 #created a new column for state names
 arrests$stateName <- row.names(arrests)
 
