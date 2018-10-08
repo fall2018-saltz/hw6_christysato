@@ -74,6 +74,17 @@
             ],
             "source": "Histograms.R",
             "target": "rapeHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BoxPlots.R"
         }
     ],
     "nodes": [
@@ -112,6 +123,6 @@
             "name": "BoxPlots.R"
         }
     ],
-    "updated_at": "2018-10-08 21:02:46",
+    "updated_at": "2018-10-08 21:03:06",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
