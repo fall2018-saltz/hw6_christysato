@@ -20,4 +20,4 @@ m_barClean
 
 #STEPC10
 #created a function that returns the clean barchart, but also sorted by murder rate from smallest to largest (left to right)
-m_barSorted <- ggplot(USArrestsdf, aes(x=reorder(stateName, Murder), y=Murder, group=1))
+m_barSorted <- m_barClean + ggplot(USArrestsdf, aes(x=reorder(stateName, Murder), y=Murder, group=1))
