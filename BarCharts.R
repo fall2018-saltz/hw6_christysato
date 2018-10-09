@@ -20,13 +20,4 @@ m_barClean
 
 #STEPC10
 #created a function that returns the clean barchart, but also sorted by murder rate from smallest to largest (left to right)
-MyMode <- function(barchart)
-{
-  USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)]) 
-  m_barSorted <- ggplot() + geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) +
-    ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
-    theme(axis.text.x = element_text(angle=90, hjust = 1)) 
-  return(m_barSorted)
-}
-
-m_barSorted <- MyMode(m_barSorted)
+m_barSorted <- ggplot(USArrestsdf, aes(x=reorder(stateName, Murder), y=Murder, group=1)
