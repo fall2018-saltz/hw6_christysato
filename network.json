@@ -231,10 +231,15 @@
             "name": "m_percent18.png"
         },
         {
+            "assigned_to": "christysato",
             "desc": "",
-            "name": "scatterPlot.R"
+            "name": "scatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-09 02:58:29",
+    "updated_at": "2018-10-09 02:59:13",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
