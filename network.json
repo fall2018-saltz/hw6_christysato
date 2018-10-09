@@ -156,6 +156,17 @@
             ],
             "source": "BarCharts.R",
             "target": "m_percent18.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "scatterPlot.R"
         }
     ],
     "nodes": [
@@ -224,6 +235,6 @@
             "name": "scatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-09 02:58:12",
+    "updated_at": "2018-10-09 02:58:29",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
