@@ -31,6 +31,7 @@ MyMode <- function(barchart)
 m_barSorted <- MyMode(m_barSorted)
 
 #STEPC11
+#created a function that will return the barchart above, but now includes percentOver18 as the color of the bars
 MyMode18 <- function(barchart)
 {
   USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)]) 
