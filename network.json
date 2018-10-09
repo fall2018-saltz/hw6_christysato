@@ -167,6 +167,16 @@
             ],
             "source": "clean.R",
             "target": "scatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "scatterPlot.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -240,6 +250,6 @@
             "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-09 02:59:13",
+    "updated_at": "2018-10-09 02:59:27",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
