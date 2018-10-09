@@ -1,0 +1,255 @@
+{
+    "collaborators": [
+        "christysato"
+    ],
+    "created_at": "2018-10-04 15:12:45",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "rawdata",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histograms.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "populationHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "murderHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "assaultHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "urbanPopHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "r",
+                    "type": "png"
+                }
+            ],
+            "source": "Histograms.R",
+            "target": "rapeHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BoxPlots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p_box",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlots.R",
+            "target": "popBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_box",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlots.R",
+            "target": "mBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarCharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "m_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_barClean",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "m_barClean.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_barSorted",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "murderBarSorted.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_percent18",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "m_percent18.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "USArrestsdf",
+                    "output": "USArrestsdf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "scatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "scatterPlot.R",
+            "target": "scatterplot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "",
+            "name": "Histograms.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "cleaning dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "populationHistogram.png"
+        },
+        {
+            "name": "murderHistogram.png"
+        },
+        {
+            "name": "assaultHistogram.png"
+        },
+        {
+            "name": "urbanPopHistogram.png"
+        },
+        {
+            "name": "rapeHistogram.png"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "",
+            "name": "BoxPlots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popBox.png"
+        },
+        {
+            "name": "mBox.png"
+        },
+        {
+            "name": "m_bar.png"
+        },
+        {
+            "name": "m_barClean.png"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "",
+            "name": "BarCharts.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murderBarSorted.png"
+        },
+        {
+            "name": "m_percent18.png"
+        },
+        {
+            "assigned_to": "christysato",
+            "desc": "",
+            "name": "scatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
+        }
+    ],
+    "updated_at": "2018-10-09 02:59:27",
+    "url": "https://github.com/fall2018-saltz/hw6_christysato"
+}
