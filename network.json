@@ -192,8 +192,12 @@
             "desc": "",
             "name": "BarCharts.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MurderSortedBar.R"
         }
     ],
-    "updated_at": "2018-10-09 00:57:25",
+    "updated_at": "2018-10-09 00:57:42",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
