@@ -29,3 +29,15 @@ MyMode <- function(barchart)
   return(m_barSorted)
 }
 m_barSorted <- MyMode(m_barSorted)
+
+#STEPC11
+MyMode18 <- function(barchart)
+{
+  USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)]) 
+  m_percent18 <- ggplot(USArrestsdf, aes(x=stateName, y= Murder)) + geom_bar(aes(fill = percentOver18), stat = "identity") +
+    ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
+    theme(axis.text.x = element_text(angle=90, hjust = 1))
+  return(m_percent18)
+}
+m_percent18 <- MyMode18(m_percent18)
+m_percent18
