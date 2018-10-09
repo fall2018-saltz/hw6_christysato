@@ -19,11 +19,13 @@ m_barClean <- m_barClean + ggtitle("Total Murders") + xlab("State Name") + ylab(
 m_barClean
 
 #STEPC10
-#change the order of factor levels by specifying the order explicitly, the order being the Murder rate
-USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)])
-
-#barchart is now sorted by murder rate from smallest to largest (left to right)
-m_barSorted <- ggplot(USArrestsdf) + geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) +
-  ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
-  theme(axis.text.x = element_text(angle=90, hjust = 1))
-m_barSorted
+#created a function that returns the clean barchart, but also sorted by murder rate from smallest to largest (left to right)
+MyMode <- function(barchart)
+{
+  USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)]) 
+  m_barSorted <- ggplot() + geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) +
+    ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
+    theme(axis.text.x = element_text(angle=90, hjust = 1)) 
+  return(m_barSorted)
+}
+MyMode(m_barSorted)
