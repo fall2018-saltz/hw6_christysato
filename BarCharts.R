@@ -10,6 +10,7 @@ numMurders
 
 #STEPC8
 #created a barchart of number of murders for each state using geomcol function
+#grabbing data from numMurders and placing stateName as x-axis and murder rate as y-axis
 m_bar <- ggplot() +geom_col(data=numMurders, aes(x=USArrestsdf$stateName, y= USArrestsdf$Murder)) #credit: https://rpubs.com/sediaz/geom_col_1
 m_bar
 
