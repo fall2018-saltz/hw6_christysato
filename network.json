@@ -136,6 +136,16 @@
             ],
             "source": "BarCharts.R",
             "target": "m_barClean.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m_barSorted",
+                    "type": "png"
+                }
+            ],
+            "source": "BarCharts.R",
+            "target": "murderBarSorted.png"
         }
     ],
     "nodes": [
@@ -197,6 +207,6 @@
             "name": "murderBarSorted.png"
         }
     ],
-    "updated_at": "2018-10-09 01:04:29",
+    "updated_at": "2018-10-09 01:06:36",
     "url": "https://github.com/fall2018-saltz/hw6_christysato"
 }
