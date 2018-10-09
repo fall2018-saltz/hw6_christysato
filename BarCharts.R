@@ -1,4 +1,5 @@
 
+#activate ggplot2 package
 library("ggplot2")
 
 #STEPC7
