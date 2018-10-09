@@ -1,5 +1,6 @@
 
 #STEPB4
+#run ggplot2 package
 library("ggplot2")
 
 #make histogram for population
