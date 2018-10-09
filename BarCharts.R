@@ -34,7 +34,7 @@ m_barSorted <- MyMode(m_barSorted)
 MyMode18 <- function(barchart)
 {
   USArrestsdf$stateName <- factor(USArrestsdf$stateName, levels = USArrestsdf$stateName[order(USArrestsdf$Murder)]) 
-  m_percent18 <- ggplot(USArrestsdf, aes(x=stateName, y= Murder)) + geom_bar(aes(fill = percentOver18), stat = "identity") +
+  m_percent18 <- ggplot(USArrestsdf, aes(x=stateName, y= Murder)) + geom_bar(aes(fill = percentOver18), stat = "identity") +  #credit:https://stackoverflow.com/questions/30486617/r-stacked-bargraph-with-colors-representing-values
     ggtitle("Total Murders") + xlab("StateName") + ylab("MurderRate") +
     theme(axis.text.x = element_text(angle=90, hjust = 1))
   return(m_percent18)
